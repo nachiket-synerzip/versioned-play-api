@@ -1,0 +1,6 @@
+Trial Play REST API versioning
+=====================================
+
+Trying out versioning in Java Play framework. There are two versions (v1 and v2) which are supposed to be accessed mainly through the URL.
+The main controller checks the version number and invokes the service for V1 or V2 accordingly.
+V2 is inherited from V1. The extra features, bug fixes etc can be added in V2 class.
